@@ -34,7 +34,7 @@ prd_key			VARCHAR(50),
 prd_nm			VARCHAR(50),
 prd_cost		VARCHAR(50),
 prd_line		VARCHAR(50),
-prd_start_dt	DATETIME,
+prd_start_dt	 	DATETIME,
 prd_end_dt		DATETIME
 );
 GO
