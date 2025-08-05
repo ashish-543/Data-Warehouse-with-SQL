@@ -2,7 +2,7 @@
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 Script Purpose:
-	This script creates tables in the bronze schema, droping existin tables if they already exist.
+	This script creates tables in the bronze schema, droping existing tables if they already exist.
 	Run this script to re-define the DDL structure of 'bronze' Tables
 ---------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
