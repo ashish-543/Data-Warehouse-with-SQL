@@ -15,7 +15,7 @@ USE MASTER;
 GO
 
 
-/* CHECK IF THE DATABASE EXISTS BEFORE CREATING IT. WHILE CHECKING, YOU CAN SET SINGLE USER AND ALSO USE ROLLBACK IMMEDIATE WHICH roll backs the running transactions.
+/* CHECK IF THE DATABASE EXISTS BEFORE CREATING IT. WHILE CHECKING, YOU CAN SET SINGLE USER AND ALSO USE ROLLBACK IMMEDIATE WHICH rolls back the running transactions.
 Forcefully kick out all users from the DataWarehouse database, roll back whatever they were doing, and lock the database so only a single user (me) can access it. */
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
 BEGIN
